@@ -1,0 +1,14 @@
+{
+
+    "rookie_saved": "Rookie successfully saved!",
+    "rookie_save_error": "You have already saved this rookie!",
+    "rookie_unsave_error": "You didn't save this rookie!",
+    "rookie_unsave": "Rookie successfully unsaved!",
+    "rookie_seen": "Rookie successfully seen!",
+    "rookie_seen_error": "You can't seen this rookie!",
+    "get_rookies_by_country_error": "Invalid country id!",
+    "low_micromorgi": "Amount should be less than your micromorgi balance",
+    "micromorgi_transaction_successful": "Successfully transferred micromorgi",
+    "not_subscribed": "You must subscribe rookie before you send micromorgi",
+    "invalid_micromorgi_type": "Invalid micromorgi type"
+}

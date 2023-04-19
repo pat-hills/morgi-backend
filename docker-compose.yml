@@ -1,0 +1,53 @@
+version: '3'
+services:
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: morgi-backend
+    restart: unless-stopped
+    tty: true
+    working_dir: /var/www/html/morgi-backend
+    ports:
+      - "8081:80"
+    volumes:
+      - ./:/var/www/html/morgi-backend
+    depends_on:
+        - mysql
+        - redis
+    networks:
+      - local-network
+
+  mysql:
+    image: mysql:5.7
+    container_name: morgi-mysql
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: morgi
+      MYSQL_ROOT_PASSWORD: root
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    networks:
+      - local-network
+
+  redis:
+      image: redis:7.0
+      container_name: morgi-redis
+      restart: unless-stopped
+      tty: true
+      ports:
+          - '6379:6379'
+      command: redis-server --requirepass root
+      volumes:
+          - ./cache:/var/www/cache
+      networks:
+          - local-network
+
+networks:
+  local-network:
+    driver: bridge
+    

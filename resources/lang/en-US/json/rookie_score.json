@@ -1,0 +1,25 @@
+{
+    "logins_streak_label": "Daily login to Morgi",
+    "photos_label": "Upload 10 photos to your profile",
+    "videos_label": "Upload a winning video",
+    "has_description_label": "Add your self-description",
+    "joined_telegram_bot_label": "Join the Telegram Notifications bot!",
+    "first_micromorgi_gift_leaders_label": "1st to be gifted from a Friend that has Micro Morgis",
+    "leaders_referred_label": "Personal Invitation to Friends",
+    "active_subscriptions_label": "Number of Friends gifting me Morgis",
+    "leaders_sending_micromorgi_last_seven_days_label": "Number of Friends gifting me Micro Morgis last 7 days",
+    "avg_subscriptions_period_label": "Average gifting connection time period",
+    "avg_first_response_time_seconds_label": "Avg 1st contact time",
+
+    "logins_streak_description": "Get up to 10 points when you login every day to Morgi. If you miss one day of logging in, the amount will be reset.",
+    "photos_description": "Receive 2 points for every photo you’re uploading to your profile for up to 20 points!",
+    "videos_description": "Create and upload a winning video that let’s your personality shine for potential Friends!",
+    "has_description_description": "Add a genuine and honest self- description that stands you from the rest!",
+    "joined_telegram_bot_description": "Connect to the Telegram Notifications bot to receive push notifications about payments and messages received from your Friends, even when offline!",
+    "first_micromorgi_gift_leaders_description": "Receive 3 points (up to 30 points) for every Friend that gifts you Micro Morgis.",
+    "leaders_referred_description": "Send a personal invitation to a Friend you know and open a free chat channel with them where they can gift you later with Morgis and Micro Morgis! Receive 10 points for each referred Friend for up to 30 points.",
+    "active_subscriptions_description": "Morgi will aggregate the amount of active gifting Friends to every Rookie and divide them into different deciles (10*{1/10}) according to their results, i.e., if 3 Friends are gifting you, you might be in the third decile and you’ll receive 6 points.",
+    "leaders_sending_micromorgi_last_seven_days_description": "Morgi will aggregate the amount of Friends that gifted Micro Morgis in the last 7 days from the previous day to all Rookies, and divide them into different deciles (10*{1/10}) according to their results, i.e., if 3 Friends have gifted you Micro Morgis in the past 7 days, you might be in the third decile and you’ll receive 6 points.",
+    "avg_subscriptions_period_description": "Morgi will calculate the average gifting connection time period for all the Rookies that one of their connections had ended, and divide them into different deciles (10{1/10}) according to their results, i.e., if you have an average gifting connection time period of 25 days, that might put you in the 10th decile and you will receive 4 points. If you have less than 3 gifting connections, you will always be in the 6th decile. *If none of your gifting connections had ended and you have more than 3 opened connections, you will be in the first decile and receive 40 points.",
+    "avg_first_response_time_seconds_description": "Morgi will calculate the average response time to every Friend for their first ever message for all the Rookies and divide them into different deciles (10*{1/10}) according to their results, i.e., if you have an average first ever response time of 02:45 mins, that might put you in the 8th decile and you will receive 12 points. *The only way to stay very responsive to your Friends is to use the Telegram Notifications Bot!"
+}

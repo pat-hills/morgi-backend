@@ -1,0 +1,15 @@
+Dockerfile
+.cache
+*.md
+vendor
+.dockerignore
+.editorconfig
+.env
+.env.example
+.git
+.gitattributes
+.github
+.gitignore
+.rnd
+.styleci.yml
+docker-compose.yml

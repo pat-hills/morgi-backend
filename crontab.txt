@@ -1,0 +1,21 @@
+@midnight cd /var/www/morgi/backend && php artisan subscriptions:rebill
+@midnight cd /var/www/morgi/backend && php artisan transactions:failed-rebill
+@midnight cd /var/www/morgi/backend && php artisan rookies:daily
+@midnight cd /var/www/morgi/backend && php artisan rookies:lottery
+@midnight cd /var/www/morgi/backend && php artisan leaders:spenders
+@midnight cd /var/www/morgi/backend && php artisan telegram:unsubscribe
+@midnight cd /var/www/morgi/backend && php artisan complaint:follow-up-reset
+@midnight cd /var/www/morgi/backend && php artisan payment_period:create
+@midnight cd /var/www/morgi/backend && php artisan goal:check
+@hourly cd /var/www/morgi/backend && php artisan rookies:stats
+@hourly cd /var/www/morgi/backend && php artisan leaders:not-paying-emails
+@hourly cd /var/www/morgi/backend && php artisan telegram:unread_messages
+@hourly cd /var/www/morgi/backend && php artisan rookies:score
+@hourly cd /var/www/morgi/backend && php artisan social:reminder
+@hourly cd /var/www/morgi/backend && php artisan algorithm:global_id
+@hourly cd /var/www/morgi/backend && php artisan pubnub:channels-create
+@hourly cd /var/www/morgi/backend && php artisan profile:emails
+*/1 * * * * cd /var/www/morgi/backend && php artisan leaders:orazio
+*/20 * * * * cd /var/www/morgi/backend && php artisan sendgrid:reports
+*/10 * * * * cd /var/www/morgi/backend && php artisan open_chat:converter
+*/20 * * * * cd /var/www/morgi/backend && php artisan telegram:inactive-leaders

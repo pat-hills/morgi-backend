@@ -1,0 +1,7 @@
+{
+
+    "invalid_video": "Video is not valid",
+    "video_already_exists": "This video already exists",
+    "invalid_video_duration": "Invalid video duration"
+
+}

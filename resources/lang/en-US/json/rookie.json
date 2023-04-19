@@ -1,0 +1,13 @@
+{
+    "image_not_uploaded": "Image not uploaded.",
+    "no_payment_method": "You don't have a payment method.",
+    "id_not_verified": "You don't have verified your identity documents.",
+    "id_already_verified": "You have already verified your documents.",
+    "you_are_not_allowed": "You are not allowed to perform this action",
+    "could_not_create_goal": "Couldn't create a goal this time, please try again.",
+    "either-or-both-video-image-required": "Either or Both proof image and video is required",
+    "could-not-submit-proof": "Couldn't submit goal proof this time, please try again.",
+    "proof-submitted-successfully": "Proof submitted successfuly",
+    "can_only_have_one_active_goal": "You can't have more than one active goal.",
+    "proof_submission_not_allow": "Can not upload proof until goal reach 100% or goal period end and reached 75% in donation."
+}

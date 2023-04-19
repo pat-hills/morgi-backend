@@ -1,0 +1,8 @@
+{
+    "category_not_exists": "Category doesn't exist",
+    "successfully_deleted": "Successfully deleted.",
+    "successfully_reported": "Successfully reported.",
+    "invalid_reporter": "Invalid reporter.",
+    "invalid_reported_user": "Reported user is invalid",
+    "invalid_subscription": "Invalid Subscription."
+}
